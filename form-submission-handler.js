@@ -15,7 +15,7 @@ function validateHuman(honeypot) {
 
 // get all data in form and return object
 function getFormData() {
-  var form = document.getElementById("gform");
+  var form = document.getElementById("wpcf7-f7-o1");
   var elements = form.elements; // all form elements
   var fields = Object.keys(elements).filter(function(k) {
         // the filtering logic is simple, only keep fields that are not the honeypot
